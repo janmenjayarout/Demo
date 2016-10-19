@@ -12,6 +12,7 @@
 		895E809B1DB63A1A00EB79F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 895E80991DB63A1A00EB79F8 /* Main.storyboard */; };
 		895E809D1DB63A1B00EB79F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 895E809C1DB63A1B00EB79F8 /* Assets.xcassets */; };
 		895E80A01DB63A1B00EB79F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 895E809E1DB63A1B00EB79F8 /* LaunchScreen.storyboard */; };
+		8966B0981DB77750008511C2 /* SampleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8966B0971DB77750008511C2 /* SampleTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		895E809C1DB63A1B00EB79F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		895E809F1DB63A1B00EB79F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		895E80A11DB63A1B00EB79F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8966B0971DB77750008511C2 /* SampleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				895E80951DB63A1A00EB79F8 /* AppDelegate.swift */,
 				895E80971DB63A1A00EB79F8 /* ViewController.swift */,
+				8966B0971DB77750008511C2 /* SampleTableViewCell.swift */,
 				895E80991DB63A1A00EB79F8 /* Main.storyboard */,
 				895E809C1DB63A1B00EB79F8 /* Assets.xcassets */,
 				895E809E1DB63A1B00EB79F8 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				895E80981DB63A1A00EB79F8 /* ViewController.swift in Sources */,
 				895E80961DB63A1A00EB79F8 /* AppDelegate.swift in Sources */,
+				8966B0981DB77750008511C2 /* SampleTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +288,7 @@
 				895E80A61DB63A1B00EB79F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
