@@ -16,9 +16,24 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        self.navigationController?.navigationBar.frame.size.height = 200;
+        
+        self.navigationController?.navigationBar.barTintColor = UIColor.redColor()
+        
+        let rightBtm = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Done, target: self, action: "doneAction");
+        self.navigationItem.rightBarButtonItem = rightBtm;
+        
+        self.navigationController?.navigationBar.tintColor = UIColor.redColor();
+
+
         designMainScreen();
     }
 
+    func doneAction()
+    {
+        print("Done Action");
+    }
+    
     func designMainScreen() -> Void
     {
         tblList = UITableView();
